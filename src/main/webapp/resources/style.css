@@ -1,0 +1,236 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f1f1f1;
+ }
+
+ header {
+   margin-top: 30px;
+   background-color: #f1f1f1;
+   box-shadow: 2px 3px 3px #888888;
+ }
+
+ .header {
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 30px;
+   margin-top: -20px;
+ }
+
+ .osh-icon {
+   margin-bottom: -15px;
+ }
+
+ .osh-icon p {
+   font-family: sans-serif;
+   font-weight: 1000;
+   font-size: xx-large;
+   color: rgb(229, 21, 21);
+ }
+
+ .figcaption {
+   margin-top: -10px;
+   margin-left: 7px;
+   font-weight: 1000;
+   font-size: x-small;
+ }
+
+ .links {
+   display: flex;
+   -webkit-text-fill-color: black;
+   margin-right: 900px;
+   margin-top: 10px;
+ }
+
+ div a[target] {
+   padding-left: 20px;
+ }
+
+ .sub-right-icons {
+   padding-left: 30px;
+   padding-right: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+ }
+
+ .sub-right-icons i {
+   margin: 0 10px;
+ }
+
+ .instruction {
+   padding-top: 10px;
+   padding-left: 40px;
+ }
+
+ .login-heading {
+   padding-top: 10px;
+   margin-bottom: 20px;
+ }
+
+ .register-heading {
+   margin-top: 9px;
+ }
+
+ header h2 {
+   padding-top: 30px;
+ }
+
+ .container {
+   display: flex;
+   justify-content: space-evenly;
+   padding: 20px;
+ }
+
+ .form-card {
+   background-color: #fff;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   width: 45%;
+ }
+
+ .login-card {
+   border-right: 1px solid #ccc;
+   margin-right: 20px;
+   padding-right: 50px;
+ }
+
+ .login-checkbox {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .login-checkbox1 {
+   font-size: x-small;
+ }
+
+ .anchor {
+   margin-left: 430px;
+   font-size: x-small;
+   color: black;
+ }
+
+
+ .register-card {
+   width: 50%;
+ }
+
+ .card-header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+
+ .osh-icon {
+   color: red;
+   font-size: 24px;
+   margin-right: 10px;
+ }
+
+ .form-group {
+   margin-bottom: 15px;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 5px;
+ }
+
+ input[type="text"],
+ input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   background-color: #ccc;
+ }
+
+
+
+ .btn {
+   display: inline-block;
+
+   width: 100%;
+   padding: 6px 20px;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .btn-btn-primary {
+   display: inline-block;
+   margin-right: 30px;
+   width: 100%;
+   padding: 6px 20px;
+   background-color: red;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .btn-btn-secondary {
+   display: inline-block;
+   padding: 10px 23px;
+   border: none;
+   color: #fff;
+   background-color: #1877F2;
+ }
+
+ .btn-btn-thirdly {
+   display: inline-block;
+   padding: 10px 36px;
+   border: none;
+   color: black;
+   margin-left: 184px;
+ }
+
+ .btn-secondary {
+   background-color: #1877F2;
+ }
+
+ .btn-1 {
+   width: 100%;
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: red;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+ .registration-checkbox1 {
+   font-size: x-small;
+ }
+
+ .registration-checkbox2 {
+   font-size: x-small;
+ }
+
+
+         .country-dropdown {
+             padding: 10px 20px;
+             background-color: #007bff;
+             color: #fff;
+             border: none;
+             border-radius: 4px;
+             cursor: pointer;
+         }
+
+
+
+         .country-dropdown:hover {
+             background-color: red;
+         }
+
+         #heading{
+           font-size: small;
+         }
